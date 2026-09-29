@@ -8,28 +8,28 @@ const footerLinks = {
 
 export default function Footer() {
   return (
-    <footer id="contact" className="bg-charcoal text-ivory/80 pt-16 pb-8">
+    <footer id="contact" className="bg-charcoal text-white/80 pt-16 pb-8">
       <div className="container-max section-padding">
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 mb-12">
           <div className="col-span-2 md:col-span-1 lg:col-span-2">
-            <h3 className="font-heading text-2xl text-ivory font-medium mb-4">
+            <h3 className="font-heading text-2xl text-white font-medium mb-4">
               Mor Laini
             </h3>
-            <p className="text-sm text-ivory/50 leading-relaxed mb-6 max-w-xs">
+            <p className="text-sm text-white/50 leading-relaxed mb-6 max-w-xs">
               Love, made soft. Luxury satin sleep and self-care, crafted for women who deserve to feel pampered.
             </p>
             <div className="flex gap-3">
               <a
                 href="#"
                 aria-label="Instagram"
-                className="w-10 h-10 rounded-full border border-ivory/20 flex items-center justify-center hover:bg-champagne hover:border-champagne hover:text-charcoal transition-all duration-300"
+                className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-champagne hover:border-champagne hover:text-charcoal transition-all duration-300"
               >
                 <Instagram className="w-4 h-4" strokeWidth={1.5} />
               </a>
               <a
                 href="#"
                 aria-label="Facebook"
-                className="w-10 h-10 rounded-full border border-ivory/20 flex items-center justify-center hover:bg-champagne hover:border-champagne hover:text-charcoal transition-all duration-300"
+                className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-champagne hover:border-champagne hover:text-charcoal transition-all duration-300"
               >
                 <Facebook className="w-4 h-4" strokeWidth={1.5} />
               </a>
@@ -38,7 +38,7 @@ export default function Footer() {
 
           {Object.entries(footerLinks).map(([heading, links]) => (
             <div key={heading}>
-              <h4 className="text-sm tracking-wide uppercase text-ivory/60 mb-4 font-body">
+              <h4 className="text-sm tracking-wide uppercase text-white/60 mb-4 font-body">
                 {heading}
               </h4>
               <ul className="space-y-3">
@@ -46,7 +46,7 @@ export default function Footer() {
                   <li key={link}>
                     <a
                       href="#"
-                      className="text-sm text-ivory/50 hover:text-champagne transition-colors duration-200"
+                      className="text-sm text-white/50 hover:text-champagne transition-colors duration-200"
                     >
                       {link}
                     </a>
@@ -57,8 +57,8 @@ export default function Footer() {
           ))}
         </div>
 
-        <div className="border-t border-ivory/10 pt-8 mb-8">
-          <div className="grid sm:grid-cols-3 gap-4 text-sm text-ivory/50">
+        <div className="border-t border-white/10 pt-8 mb-8">
+          <div className="grid sm:grid-cols-3 gap-4 text-sm text-white/50">
             <div className="flex items-center gap-3">
               <Mail className="w-4 h-4 text-champagne" strokeWidth={1.5} />
               <span>hello@morlaini.co.ke</span>
@@ -74,7 +74,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="text-center text-xs text-ivory/30">
+        <div className="text-center text-xs text-white/30">
           © {new Date().getFullYear()} Mor Laini. Love, made soft.
         </div>
       </div>

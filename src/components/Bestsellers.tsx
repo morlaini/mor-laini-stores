@@ -2,10 +2,10 @@ import { bestsellers, formatKES } from '@/data/products';
 
 export default function Bestsellers() {
   return (
-    <section id="bestsellers" className="py-20 sm:py-28 bg-blush-50">
+    <section id="bestsellers" className="py-20 sm:py-28 bg-blush-100">
       <div className="container-max section-padding">
         <div className="text-center mb-14">
-          <p className="text-sm tracking-[0.25em] uppercase text-mauve/60 mb-3">Loved by many</p>
+          <p className="text-sm tracking-[0.25em] uppercase text-mauve/70 mb-3">Loved by many</p>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-medium text-mauve">
             Bestsellers
           </h2>
@@ -15,7 +15,7 @@ export default function Bestsellers() {
           {bestsellers.map((product, index) => (
             <div
               key={product.id}
-              className="group bg-ivory rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-lg animate-fade-in-up"
+              className="group bg-white rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-lg animate-fade-in-up"
               style={{ animationDelay: `${index * 0.1}s`, animationFillMode: 'both' }}
             >
               <div className="aspect-square overflow-hidden bg-blush-100">
@@ -27,7 +27,7 @@ export default function Bestsellers() {
                 />
               </div>
               <div className="p-4 sm:p-5">
-                <p className="text-xs tracking-wide uppercase text-mauve/50 mb-1">
+                <p className="text-xs tracking-wide uppercase text-mauve/60 mb-1">
                   {product.category}
                 </p>
                 <h3 className="text-base sm:text-lg font-heading font-medium text-mauve mb-2 leading-snug">

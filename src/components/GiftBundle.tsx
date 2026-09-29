@@ -2,7 +2,7 @@ import { Gift } from 'lucide-react';
 
 export default function GiftBundle() {
   return (
-    <section className="py-20 sm:py-28 bg-ivory">
+    <section className="py-20 sm:py-28 bg-white">
       <div className="container-max section-padding">
         <div className="relative rounded-3xl overflow-hidden bg-gradient-to-br from-blush-100 via-blush-50 to-champagne-50">
           <div className="grid md:grid-cols-2 items-center">

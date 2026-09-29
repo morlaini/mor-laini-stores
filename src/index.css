@@ -9,12 +9,15 @@
     scroll-behavior: smooth;
   }
   body {
-    @apply bg-ivory text-charcoal font-body antialiased;
+    @apply bg-white text-charcoal font-body antialiased;
     font-weight: 300;
   }
   h1, h2, h3, h4, h5, h6 {
     @apply font-heading text-mauve;
     font-weight: 500;
+  }
+  a {
+    @apply text-mauve;
   }
 }
 
@@ -23,7 +26,7 @@
     @apply inline-flex items-center justify-center px-8 py-3 bg-champagne text-charcoal font-body text-sm tracking-wide uppercase rounded-full transition-all duration-300 hover:bg-champagne-300 hover:shadow-md;
   }
   .btn-outline {
-    @apply inline-flex items-center justify-center px-8 py-3 border border-champagne text-mauve font-body text-sm tracking-wide uppercase rounded-full transition-all duration-300 hover:bg-champagne-50;
+    @apply inline-flex items-center justify-center px-8 py-3 border border-champagne text-mauve font-body text-sm tracking-wide uppercase rounded-full transition-all duration-300 hover:bg-blush-100;
   }
   .section-padding {
     @apply px-5 sm:px-8 lg:px-12;
@@ -38,6 +41,6 @@
     text-wrap: balance;
   }
   .gradient-blush-champagne {
-    background: linear-gradient(135deg, #FFB3D9 0%, #F5EFDD 50%, #E9D8B8 100%);
+    background: linear-gradient(135deg, #FFB3D9 0%, #FFE6F3 50%, #E9D8B8 100%);
   }
 }

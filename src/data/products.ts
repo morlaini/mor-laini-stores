@@ -53,7 +53,7 @@ export const bestsellers: Product[] = [
     price: 1500,
     category: 'Bonnets',
     image: 'https://images.pexels.com/photos/7897135/pexels-photo-7897135.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-    colors: ['#FFB3D9', '#7A4E58', '#3A2F31'],
+    colors: ['#FFB3D9', '#5C3348', '#3A2F31'],
   },
   {
     id: 2,
@@ -61,7 +61,7 @@ export const bestsellers: Product[] = [
     price: 4500,
     category: 'Robes',
     image: 'https://images.pexels.com/photos/16455805/pexels-photo-16455805.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-    colors: ['#E9D8B8', '#FFB3D9', '#FBF7F2'],
+    colors: ['#E9D8B8', '#FFB3D9', '#FFFFFF'],
   },
   {
     id: 3,
@@ -69,7 +69,7 @@ export const bestsellers: Product[] = [
     price: 1200,
     category: 'Scrunchies',
     image: 'https://images.pexels.com/photos/6044135/pexels-photo-6044135.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-    colors: ['#FFB3D9', '#E9D8B8', '#7A4E58'],
+    colors: ['#FFB3D9', '#E9D8B8', '#5C3348'],
   },
   {
     id: 4,
@@ -77,7 +77,7 @@ export const bestsellers: Product[] = [
     price: 800,
     category: 'Headbands',
     image: 'https://images.pexels.com/photos/5845784/pexels-photo-5845784.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-    colors: ['#FFB3D9', '#FBF7F2', '#E9D8B8'],
+    colors: ['#FFB3D9', '#FFFFFF', '#E9D8B8'],
   },
   {
     id: 5,
@@ -85,7 +85,7 @@ export const bestsellers: Product[] = [
     price: 950,
     category: 'Sleep Masks',
     image: 'https://images.pexels.com/photos/6541087/pexels-photo-6541087.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-    colors: ['#FFB3D9', '#7A4E58', '#3A2F31'],
+    colors: ['#FFB3D9', '#5C3348', '#3A2F31'],
   },
   {
     id: 6,
@@ -93,7 +93,7 @@ export const bestsellers: Product[] = [
  price: 1800,
     category: 'House Shoes',
     image: 'https://images.pexels.com/photos/12969102/pexels-photo-12969102.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-    colors: ['#E9D8B8', '#FFB3D9', '#FBF7F2'],
+    colors: ['#E9D8B8', '#FFB3D9', '#FFFFFF'],
   },
 ];
 

@@ -6,7 +6,7 @@ export default {
       colors: {
         blush: {
           DEFAULT: '#FFB3D9',
-          50: '#FFF5FB',
+          50: '#FFE6F3',
           100: '#FFE6F3',
           200: '#FFB3D9',
           300: '#FF8FC4',
@@ -22,11 +22,11 @@ export default {
           400: '#C9B277',
           500: '#B59E5E',
         },
-        ivory: '#FBF7F2',
+        ivory: '#FFFFFF',
         mauve: {
-          DEFAULT: '#7A4E58',
-          light: '#9A6E78',
-          dark: '#5C3A43',
+          DEFAULT: '#5C3348',
+          light: '#7A4E58',
+          dark: '#3D1F33',
         },
         charcoal: '#3A2F31',
       },

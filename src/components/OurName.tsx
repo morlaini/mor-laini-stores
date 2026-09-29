@@ -1,9 +1,9 @@
 export default function OurName() {
   return (
-    <section id="our-story" className="py-20 sm:py-28 bg-ivory">
+    <section id="our-story" className="py-20 sm:py-28 bg-white">
       <div className="container-max section-padding">
         <div className="max-w-3xl mx-auto text-center">
-          <p className="text-sm tracking-[0.25em] uppercase text-mauve/60 mb-3">Our Name</p>
+          <p className="text-sm tracking-[0.25em] uppercase text-mauve/70 mb-3">Our Name</p>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-medium text-mauve mb-8">
             Mor Laini
           </h2>

@@ -29,7 +29,7 @@ export default function Header() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled
-          ? 'bg-ivory/95 backdrop-blur-md shadow-sm py-3'
+          ? 'bg-white/95 backdrop-blur-md shadow-sm py-3'
           : 'bg-transparent py-5'
       }`}
     >
@@ -71,7 +71,7 @@ export default function Header() {
       </div>
 
       {menuOpen && (
-        <nav className="lg:hidden absolute top-full left-0 right-0 bg-ivory/98 backdrop-blur-md shadow-md animate-slide-down">
+        <nav className="lg:hidden absolute top-full left-0 right-0 bg-white/98 backdrop-blur-md shadow-md animate-slide-down">
           <div className="section-padding py-6 flex flex-col gap-4">
             {navLinks.map((link) => (
               <a

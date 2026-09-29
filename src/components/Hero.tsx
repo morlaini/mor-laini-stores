@@ -5,14 +5,14 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-center overflow-hidden gradient-blush-champagne pt-20">
       <div className="container-max section-padding w-full grid lg:grid-cols-2 gap-12 items-center">
         <div className="text-center lg:text-left animate-fade-in-up">
-          <p className="text-sm tracking-[0.25em] uppercase text-mauve/70 mb-5">
+          <p className="text-sm tracking-[0.25em] uppercase text-mauve/80 mb-5">
             Luxury Satin Sleep &amp; Self-Care
           </p>
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-heading text-mauve leading-[1.1] mb-6 text-balance font-medium">
             Love, made soft.
           </h1>
           <p className="text-base sm:text-lg text-charcoal/70 mb-10 max-w-md mx-auto lg:mx-0 leading-relaxed">
-            Satin headbands, bonnets, robes and scrunchies crafted to protect your hair and skin — and make every evening feel like a small indulgence.
+            Satin headbands, bonnets, robes, scrunchies, sleep masks and house shoes — crafted to protect your hair and skin, and make every evening feel like a small indulgence.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <a href="#shop" className="btn-primary group">

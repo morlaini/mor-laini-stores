@@ -20,10 +20,10 @@ const benefits = [
 
 export default function WhySatin() {
   return (
-    <section className="py-20 sm:py-28 bg-blush-50">
+    <section className="py-20 sm:py-28 bg-blush-100">
       <div className="container-max section-padding">
         <div className="text-center mb-14">
-          <p className="text-sm tracking-[0.25em] uppercase text-mauve/60 mb-3">The Difference</p>
+          <p className="text-sm tracking-[0.25em] uppercase text-mauve/70 mb-3">The Difference</p>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-medium text-mauve">
             Why Satin?
           </h2>
